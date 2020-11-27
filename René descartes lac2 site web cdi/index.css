@@ -1,0 +1,370 @@
+body {
+}
+.navbar-is {
+  background-image: url("https://www.nautiljon.com/images/actualite/00/13/top_10_des_mangas_qui_se_sont_le_mieux_vendus_au_japon_en_2018_10331.jpg?1544090352");
+  background-attachment: fixed;
+}
+
+.serach-input-is {
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  border: none;
+  transform: translate(-50%, 50%);
+  background: rgb(115, 255, 0);
+  color: blue;
+  border-radius: 50px;
+  padding: 20px;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+#button-contact-navbar {
+  position: absolute;
+  top: 3%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  text-shadow: center;
+  line-height: 60px;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  background-size: 400%;
+  border-radius: 300px;
+}
+
+#button-contact-navbar:hover {
+  animation: animate 8s linear infinite;
+}
+@keyframes animate {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+}
+#his-1 {
+  position: absolute;
+  top: 40%;
+  left: 3%;
+}
+
+#his-1-comment {
+  position: absolute;
+  top: 80%;
+  left: 1%;
+}
+
+#his-2 {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  width: 180px;
+  height: 246px;
+}
+#his-2-comment {
+  position: absolute;
+  top: 80%;
+  left: 25%;
+}
+#his-3 {
+  position: absolute;
+  top: 40%;
+  left: 56%;
+}
+#his-3-comment {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
+#his-4 {
+  position: absolute;
+  top: 40%;
+  left: 80%;
+}
+#his-4-comment {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+}
+#his-5 {
+  position: absolute;
+  top: 100%;
+  left: 30%;
+  width: 180px;
+  height: 246px;
+}
+#his-5-comment{
+  position: absolute;
+  top: 140%;
+  left: 25%;
+  }
+  #his-6{
+    position: absolute;
+    top: 100%;
+    left: 55%;
+    }
+    #his-6-comment{
+      position: absolute;
+      top: 140%;
+      left: 55%
+      }
+.global-box {
+  list-style: none;
+
+  position: absolute;
+  top: 170px;
+  left: 45%;
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background: rgba(red, green, blue, alpha);
+}
+.global-box:hover {
+}
+.book-box {
+  list-style: none;
+  position: absolute;
+  top: 170px;
+  left: 55%;
+}
+.key-box {
+  list-style: none;
+  position: absolute;
+  top: 170px;
+  left: 35%;
+}
+@media screen and (max-width: 1125px) {
+  #his-4 {
+    position: absolute;
+    top: 90%;
+    left: 3%;
+  }
+  #his-4-comment {
+    position: absolute;
+    top: 130%;
+    left: 3%;
+  }
+  #his-3 {
+    position: absolute;
+    top: 40%;
+    left: 80%;
+  }
+  #his-3-comment {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+  }
+  #his-2 {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 180px;
+    height: 246px;
+  }
+  #his-2-comment {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+  }
+}
+#his-5 {
+  position: absolute;
+  top: 90%;
+  left: 3%;
+  width: 180px;
+  height: 246px;
+}
+#his-5-comment {
+  position: absolute;
+  top: 130%;
+  left: 1%;
+}
+#his-6 {
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  width: 180px;
+  height: 246px;
+}
+#his-6-comment {
+  position: absolute;
+  top: 130%;
+  left: 25%;
+}
+#his-7 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  width: 180px;
+  height: 246px;
+}
+#his-7-comment {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+}
+#his-8{
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  width: 180px;
+  }
+  #his-8-comment {
+    position: absolute;
+    top: 130%;
+    left: 75%;
+  }
+  #his-9{
+    position: absolute;
+    top: 150%;
+    left: 3%;
+    width: 180px;
+    }
+    #his-9-comment {
+      position: absolute;
+      top: 191%;
+      left: 1%;
+    }
+    #his-10{
+      position: absolute;
+      top: 150%;
+      left: 25%;
+      width: 180px;
+      }
+      #his-10-comment {
+        position: absolute;
+        top: 191%;
+        left: 25%;
+      }
+      #his-11{
+        position: absolute;
+        top: 150%;
+        left: 50%;
+        width: 180px;
+        }
+        #his-11-comment {
+          position: absolute;
+          top: 191%;
+          left: 50%;
+        }
+        #trs{
+          position: absolute;
+          top: 200%;
+          left:;
+          width: 99%;
+          height: 20%;
+          }
+@media screen and (max-width: 865px) {
+  #his-3 {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+  }
+  #his-3-comment {
+    position: absolute;
+    top: 130%;
+    left: 45%;
+  }
+}
+@media screen and (max-width: 621px) {
+  #his-4 {
+    position: absolute;
+    top: 200%;
+    left: 3%;
+  }
+  #his-4-comment {
+    position: absolute;
+    top: 240%;
+    left: 3%;
+  }
+  #his-3 {
+    position: absolute;
+    top: 150%;
+    left: 3%;
+  }
+  #his-3-comment {
+    position: absolute;
+    top: 190%;
+    left: 3%;
+  }
+  #his-2 {
+    position: absolute;
+    top: 100%;
+    left: 3%;
+    width: 180px;
+    height: 246px;
+  }
+  #his-2-comment {
+    position: absolute;
+    top: 140%;
+    left: 3%;
+  }
+}
+
+#his-1-comment {
+  position: absolute;
+  top: 82%;
+  left: 1%;
+}
+}
+@media screen and (max-width: 1024px) {
+  #his-1-comment {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+  }
+  }
+  @media screen and (max-height: 560px) {
+    #his-1-comment {
+      position: absolute;
+      top: 90%;
+      left: 1%;
+    }
+    #his-2-comment {
+      position: absolute;
+      top: 90%;
+      left: 25%;
+    }
+    #his-3-comment {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+    }
+    #his-4-comment {
+      position: absolute;
+      top: 90%;
+      left: 80%;
+    }
+    }
+    @media screen and (max-width: 994px){
+      #his-5 {
+        position: absolute;
+        top: 90%;
+        left: 35%;
+        width: 180px;
+        height: 246px;
+      }
+      #his-5-comment{
+        position: absolute;
+        top: 130%;
+        left: 30%;
+        }
+        #his-6{
+          position: absolute;
+          top: 90%;
+          left: 70%;
+          }
+          #his-6-comment{
+            position: absolute;
+            top:  130%;
+            left: 65%
+            }
+      }
